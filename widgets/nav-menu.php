@@ -12,4 +12,8 @@ use Elementor\Widget_Base;
     return 'EHW Menu';
   }
 
+  public function get_title() {
+    return __( 'EHW Menu', 'ehw-elementor-widgets' );
+  }
+
  }
