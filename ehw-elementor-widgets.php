@@ -14,6 +14,8 @@
 
 namespace EHW\ElementorWidgets;
 
+use EHW\ElementorWidgets\Widgets\Nav_Menu;
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
