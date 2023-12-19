@@ -60,4 +60,4 @@ final class MultiVideoEmbed {
 
 }
 
-MultiVideoEmbed::get_instance();
+// MultiVideoEmbed::get_instance();
