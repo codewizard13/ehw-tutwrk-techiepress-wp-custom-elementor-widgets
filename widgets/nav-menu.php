@@ -1,5 +1,7 @@
 <?php
 
+namespace EHW\ElementorWidgets\Widgets;
+
 use Elementor\Widget_Base;
 
 /**
@@ -35,7 +37,7 @@ use Elementor\Widget_Base;
   }
 
   protected function _content_template() {
-    
+
   }
 
  }
