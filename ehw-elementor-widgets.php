@@ -40,6 +40,7 @@ final class EHWElementorWidgets {
     // check php version
     // check elementor installed
     // bring in the widget classes
+    $this->init_widgets();
     // bring in the controls
   }
 
