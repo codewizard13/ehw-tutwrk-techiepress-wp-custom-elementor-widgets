@@ -9,7 +9,7 @@
  * Version: 0.1.0
  * License: 
  * License URL:
- * Text Domain: ehw-multi-video-embed 
+ * Text Domain: ehw-elementor-widgets 
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -31,7 +31,7 @@ final class EHWElementorWidgets {
   }
 
   public function i18n() {
-    load_plugin_textdomain( 'ehw-multi-video-embed');
+    load_plugin_textdomain( 'ehw-elementor-widgets');
   }
 
   public function init_plugin() {
