@@ -29,6 +29,10 @@ final class MultiVideoEmbed {
 
   }
 
+  public function i18n() {
+    load_plugin_textdomain( 'ehw-multi-video-embed');
+  }
+
   public function init_controls() {
 
   }
