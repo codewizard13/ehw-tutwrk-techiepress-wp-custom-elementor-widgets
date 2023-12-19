@@ -27,10 +27,18 @@ final class MultiVideoEmbed {
 
   public function __construct() {
     add_action( 'init', [ $this, 'i18n'] );
+    add_action( 'plugin_loaded', [ $this, 'init_plugin']);
   }
 
   public function i18n() {
     load_plugin_textdomain( 'ehw-multi-video-embed');
+  }
+
+  public function init_plugin() {
+    // check php version
+    // check elementor installed
+    // bring in the widget classes
+    // bring in the controls
   }
 
   public function init_controls() {
