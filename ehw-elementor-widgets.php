@@ -48,7 +48,9 @@ final class EHWElementorWidgets {
   }
 
   public function init_widgets() {
+    // Require the widget class
 
+    // Register widget with elementor
   }
 
 
