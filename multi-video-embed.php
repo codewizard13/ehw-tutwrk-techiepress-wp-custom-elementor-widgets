@@ -47,3 +47,5 @@ final class MultiVideoEmbed {
   }
 
 }
+
+MultiVideoEmbed::get_instance();
