@@ -31,7 +31,8 @@ final class EHWElementorWidgets {
 
   public function __construct() {
     add_action( 'init', [ $this, 'i18n'] );
-    add_action( 'plugin_loaded', [ $this, 'init_plugin']);
+    add_action( 'plugin_loaded', [ $this, 'init_plugin'] );
+    add_action( 'elementor/widgets/widgets_registerd', [ $this, 'init_widgets'] );
   }
 
   public function i18n() {
@@ -42,7 +43,7 @@ final class EHWElementorWidgets {
     // check php version
     // check elementor installed
     // bring in the widget classes
-    $this->init_widgets();
+    // $this->init_widgets();
     // bring in the controls
   }
 
