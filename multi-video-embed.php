@@ -70,3 +70,10 @@ function echo_header_2() {
 }
 
 add_filter( 'the_title', 'ehw_modify_title' );
+
+function ehw_modify_title( $title ) {
+  
+  $title = 'Hello title - ' . $title;
+  
+  return $title;
+}
