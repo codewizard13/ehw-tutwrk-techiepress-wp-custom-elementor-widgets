@@ -61,3 +61,10 @@ final class MultiVideoEmbed {
 }
 
 // MultiVideoEmbed::get_instance();
+
+add_action( 'ehw_do_action', 'echo_header_2' );
+
+
+function echo_header_2() {
+  echo '<h2>This is our header two</h2>';
+}
