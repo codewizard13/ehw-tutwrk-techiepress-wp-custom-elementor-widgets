@@ -9,7 +9,7 @@ use Elementor\Widget_Base;
  class Nav_Menu extends Widget_Base {
 
   public function get_name() {
-    return 'EHW Menu';
+    return 'ehw-menu';
   }
 
   public function get_title() {
