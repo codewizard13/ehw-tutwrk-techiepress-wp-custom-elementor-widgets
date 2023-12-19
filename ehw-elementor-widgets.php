@@ -52,6 +52,7 @@ final class EHWElementorWidgets {
 
   public function init_widgets() {
     // Require the widget class
+    require_once __DIR__ . '/widgets/nav-menu.php';
 
     // Register widget with elementor
   }
