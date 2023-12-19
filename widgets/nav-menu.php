@@ -26,5 +26,16 @@ use Elementor\Widget_Base;
     return ['basic'];
   }
 
+  public function _register_control() {
+
+  }
+
+  protected function render() {
+
+  }
+
+  protected function _content_template() {
+    
+  }
+
  }
- 

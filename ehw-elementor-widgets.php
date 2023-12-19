@@ -63,3 +63,4 @@ final class EHWElementorWidgets {
 }
 
 EHWElementorWidgets::get_instance();
+
