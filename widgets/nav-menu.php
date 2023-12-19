@@ -16,4 +16,15 @@ use Elementor\Widget_Base;
     return __( 'EHW Menu', 'ehw-elementor-widgets' );
   }
 
+  public function get_icon() {
+    // return 'fa fa-menu';
+    return 'eicon-nav-menu';
+  }
+
+  public function get_categories() {
+    // TODO: Add our own category in Elementor
+    return ['basic'];
+  }
+
  }
+ 
