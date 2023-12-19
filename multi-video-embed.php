@@ -66,10 +66,10 @@ add_action( 'ehw_do_action', 'echo_header_2' );
 
 
 function echo_header_2() {
-  echo '<h2>This is our header two</h2>';
+  echo '<h2>' . apply_filters( 'ehw_title', 'This is our header two' ) . '</h2>';
 }
 
-add_filter( 'the_title', 'ehw_modify_title' );
+add_filter( 'ehw_title', 'ehw_modify_title' );
 
 function ehw_modify_title( $title ) {
   
