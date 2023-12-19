@@ -60,4 +60,4 @@ final class EHWElementorWidgets {
 
 }
 
-// EHWElementorWidgets::get_instance();
+EHWElementorWidgets::get_instance();
