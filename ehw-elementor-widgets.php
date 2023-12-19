@@ -32,7 +32,7 @@ final class EHWElementorWidgets {
   public function __construct() {
     add_action( 'init', [ $this, 'i18n'] );
     add_action( 'plugin_loaded', [ $this, 'init_plugin'] );
-    add_action( 'elementor/widgets/widgets_registerd', [ $this, 'init_widgets'] );
+    add_action( 'elementor/widgets/widgets_registered', [ $this, 'init_widgets'] );
   }
 
   public function i18n() {

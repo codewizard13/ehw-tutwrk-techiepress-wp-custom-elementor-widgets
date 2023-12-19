@@ -33,11 +33,15 @@ use Elementor\Widget_Base;
   }
 
   protected function render() {
-
+    ?>
+      <div>Hello widget</div>
+    <?php
   }
 
   protected function _content_template() {
-
+    ?>
+      <div>Hello widget</div>
+    <?php
   }
 
  }
