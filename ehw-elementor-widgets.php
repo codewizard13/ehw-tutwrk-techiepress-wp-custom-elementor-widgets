@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: Multi Video Embed
+ * Plugin Name: EHW Elementor Widgets
  * Plugin URI:
  * Author: Eric Hepperle
  * Author URI: EricHepperleDesigns.com
@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-final class MultiVideoEmbed {
+final class EHWElementorWidgets {
 
   const VERSION = '0.1.0';
   const ELEMENTOR_MINIMUM_VERSION = '3.0.0';
@@ -60,4 +60,4 @@ final class MultiVideoEmbed {
 
 }
 
-// MultiVideoEmbed::get_instance();
+// EHWElementorWidgets::get_instance();
