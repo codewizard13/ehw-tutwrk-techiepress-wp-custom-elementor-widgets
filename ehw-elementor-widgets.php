@@ -55,6 +55,7 @@ final class EHWElementorWidgets {
     require_once __DIR__ . '/widgets/nav-menu.php';
 
     // Register widget with elementor
+    \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new Nav_Menu() );
   }
 
 
