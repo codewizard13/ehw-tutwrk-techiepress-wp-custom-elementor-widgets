@@ -25,6 +25,17 @@ final class MultiVideoEmbed {
   private static $_instance = null;
 
 
+  public function __construct() {
+
+  }
+
+  public function init_controls() {
+
+  }
+
+  public function init_widgets() {
+
+  }
 
 
   public static function get_instance() {
