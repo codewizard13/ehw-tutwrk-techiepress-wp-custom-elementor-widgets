@@ -26,7 +26,7 @@ final class MultiVideoEmbed {
 
 
   public function __construct() {
-
+    add_action( 'init', [ $this, 'i18n'] );
   }
 
   public function i18n() {
