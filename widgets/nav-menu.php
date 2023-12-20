@@ -25,7 +25,7 @@ use Elementor\Widget_Base;
 
   public function get_categories() {
     // TODO: Add our own category in Elementor
-    return ['basic', 'favorites'];
+    return ['ehw', 'basic', 'favorites'];
   }
 
   public function _register_control() {
