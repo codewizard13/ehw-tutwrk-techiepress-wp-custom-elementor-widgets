@@ -57,6 +57,9 @@ use Elementor\Widget_Base;
       ]
     );
 
+    $this->end_controls_section();
+
+
   }
 
   // Front end
