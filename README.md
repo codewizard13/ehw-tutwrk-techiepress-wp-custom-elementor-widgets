@@ -80,41 +80,7 @@ A multi-part tutorial playlist teaching how to create a WordPress plugin from sc
 
 ### Channel
 
-<style>
-  .author-profile {
-    background: aliceblue;
-    border: solid 2px lightblue;
-    border-radius: 10px;
-    min-height: 2em;
-    min-width: 200px;
-    max-width: 1024px;
-    margin: 1em;
-    padding: 0.6em;
-    overflow: hidden;
-    height: auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-    display: flex;
-    column-gap: 1em;
-  }
-  .author-img {
-  }
-  .author-img img {
-    max-height: 150px;
-
-  }
-  .author-info {    color: darkcyan;
-    font-weight: 400;
-    font-family: roboto, 'open sans', arial, sans-serif;
-    margin: 0;
-    line-height: 1.2;
-    font-size: .8rem;
-  }
-
-  .author-info h3 {padding: 0; margin: 0; font-size: 1.8rem}
-  .author-info h3 a {color: cornflowerblue; text-decoration: none;}
-  .author-info h4 { font-size: 1rem; color: gray; font-weight: 300; margin: 0.4rem 0; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
-</style>
 
 <section class="author-profile">
   <div class="author-img">
