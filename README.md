@@ -53,6 +53,31 @@ A multi-part tutorial playlist teaching how to create a WordPress plugin from sc
 
 #### TIP: the settings.json in .vscode/ folder is key to getting the compile to work.
 
+**settings.json** for Live Sass Compiler:
+
+```css
+{
+  "liveSassCompile.settings.formats": [
+      {
+          "format": "expanded",
+          "extensionName": ".css",
+          "savePath": "/css/",
+      },
+      {
+          "extensionName": ".min.css",
+          "format": "compressed",
+          "savePath": "/css/",
+      }
+  ],
+  "liveSassCompile.settings.excludeList": ["/**/node_modules/**", "/.vscode/**"],
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.autoprefix": ["defaults"],
+  "liveSassCompile.settings.partialsList": [
+    "/**/_*.s[ac]ss"
+  ],
+}
+```
+
 ### Channel
 
 <style>
