@@ -3,18 +3,19 @@
       {
           "format": "expanded",
           "extensionName": ".css",
-          "savePath": "/"
+          "savePath": "/css/",
       },
       {
           "extensionName": ".min.css",
           "format": "compressed",
-          "savePath": "/"
+          "savePath": "/css/",
       }
   ],
-  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "liveSassCompile.settings.excludeList": ["/**/node_modules/**", "/.vscode/**"],
   "liveSassCompile.settings.generateMap": false,
   "liveSassCompile.settings.autoprefix": ["defaults"],
   "liveSassCompile.settings.partialsList": [
     "/**/_*.s[ac]ss"
-  ]
+  ],
+  "compile-hero.disable-compile-files-on-did-save-code": true
 }
