@@ -46,13 +46,9 @@
   </div>
 </section>
 
-<br>
-
-
-
 ## TAGS
 
-`WordPress` `ACF` `Advanced Custom Fields` `Custom Post Types` `WP` `Post Meta` `Plugins` `Alecad`
+`WordPress` `Elementor` `Widgets` `Custom Widgets` `Code From Scratch` `WP` `Plugins` `TechiePress` `Custom Plugins`
 
 ## Purpose
 
