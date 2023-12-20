@@ -50,6 +50,9 @@ A multi-part tutorial playlist teaching how to create a WordPress plugin from sc
 
 </div>
 
+
+#### TIP: the settings.json in .vscode/ folder is key to getting the compile to work.
+
 ### Channel
 
 <style>
