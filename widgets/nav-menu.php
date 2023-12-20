@@ -37,14 +37,22 @@ use Elementor\Widget_Base;
 
   // Front end
   protected function render() {
-    echo wp_nav_menu();
+    echo wp_nav_menu(
+      [
+        'menu_class' => 'ehw-menu',
+      ]
+    );
 
   }
 
   // Back end
   protected function _content_template() {
-    echo wp_nav_menu();
+    echo wp_nav_menu(
+      [
+        'menu_class' => 'ehw-menu',
+      ]
+    );
 
   }
-
+  
  }
