@@ -39,6 +39,7 @@ use Elementor\Widget_Base;
   protected function render() {
     echo wp_nav_menu(
       [
+        'container' => '',
         'menu_class' => 'ehw-menu',
       ]
     );
@@ -49,10 +50,11 @@ use Elementor\Widget_Base;
   protected function _content_template() {
     echo wp_nav_menu(
       [
+        'container' => '',
         'menu_class' => 'ehw-menu',
       ]
     );
 
   }
-  
+
  }
