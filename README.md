@@ -26,7 +26,11 @@
 
 <br><br>
 
-### Instructor Info
+![Tutorial Video Screenshot]("/../img/thumb-yt-techiepress-build-custom-elementor-widgets-01.jpg)
+
+<br>
+
+## Instructor Info
 
 <section class="author-profile">
   <div class="author-img">
@@ -44,9 +48,7 @@
 
 <br>
 
-![Tutorial Video Screenshot]("/../img/thumb-yt-techiepress-build-custom-elementor-widgets-01.jpg)
 
-<br>
 
 ## TAGS
 
