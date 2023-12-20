@@ -72,6 +72,17 @@ final class EHWElementorWidgets {
 
   public function create_new_category( $elements_manager ) {
 
+    $elements_manager->add_category(
+
+      'ehw',
+      [
+        'title' => __( 'EHW', 'ehw-elementor-widgets' ),
+        'icon' => 'fa fa-plug'
+      ],
+
+    );
+
+
   }
 
 
