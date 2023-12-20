@@ -5,4 +5,5 @@
 
 .ehw-menu li {
   margin: 0 20px;
+  display: inline-block;
 }
