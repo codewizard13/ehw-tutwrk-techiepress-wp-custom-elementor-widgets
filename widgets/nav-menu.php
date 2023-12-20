@@ -57,4 +57,12 @@ use Elementor\Widget_Base;
 
   }
 
+  public function get_style_depends() {
+    return ['ehw-menu-css'];
+  }
+
+  public function get_script_depends() {
+    return ['ehw-menu-js'];
+  }
+
  }
