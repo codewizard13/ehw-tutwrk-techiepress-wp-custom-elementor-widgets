@@ -28,7 +28,6 @@ use Elementor\Widget_Base;
   }
 
   public function get_categories() {
-    // TODO: Add our own category in Elementor
     return ['ehw', 'basic', 'favorites'];
   }
 
@@ -36,13 +35,17 @@ use Elementor\Widget_Base;
 
   }
 
+  // Front end
   protected function render() {
+    echo wp_nav_menu();
     ?>
       <div>Hello widget</div>
     <?php
   }
 
+  // Back end
   protected function _content_template() {
+    echo wp_nav_menu();
     ?>
       <div>Hello widget</div>
     <?php
