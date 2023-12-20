@@ -78,7 +78,7 @@ A multi-part tutorial playlist teaching how to create a WordPress plugin from sc
 }
 ```
 
-### Channel
+### Instructor Channel
 
 
 
