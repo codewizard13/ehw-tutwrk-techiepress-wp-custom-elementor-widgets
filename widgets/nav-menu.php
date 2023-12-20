@@ -57,10 +57,23 @@ use Elementor\Widget_Base;
       ]
     );
 
+    $this->add_control(
+      'content_heading',
+      [
+        'label' => 'Content Heading',
+        'type' => \Elementor\Controls_Manager::TEXT,
+        'default' => 'My Other Example Heading'
+      ]
+    );
+
     $this->end_controls_section();
 
 
   }
+
+
+
+
 
   // Front end
   protected function render() {
