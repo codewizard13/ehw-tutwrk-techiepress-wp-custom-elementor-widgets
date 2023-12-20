@@ -35,14 +35,14 @@
 <section class="author-profile">
   <div class="author-img">
     <img
-      src="https://yt3.ggpht.com/ytc/AL5GRJXFW7_tIIEEXuQuygVPmuVyV_QnYY4N9Sop3YwLXSQ=s88-c-k-c0x00ffffff-no-rj"
+      src="https://yt3.ggpht.com/ytc/AIf8zZTQe8sGsuVNXbP1u5wPdhErTPrR1CgoyvJNc_np=s88-c-k-c0x00ffffff-no-rj"
       alt="Instructor pic"
     />
   </div>
   <div class="author-info">
-    <h3><a href="https://www.youtube.com/@alecaddd" target="_blank">Alessandro Castellani</a></h3>
-    <h4>Development, Design, Tech news, and other Nerdy stuff.</h4>
-    <p>Tutorials and guides for Developers and Designers that want to learn HTML, CSS, JAVASCRIPT, PHP, WORDPRESS, GIT, LARAVEL, SQL, AWS, VUEJS, and how to bake a potato.</p>
+    <h3><a href="https://www.youtube.com/@TechiePress" target="_blank">TechiePress</a></h3>
+    <h4>PHP, HTML, CSS and JavaScript (React JS, Vue JS and Vanilla JS)</h4>
+    <p>This channel is mainly about coding solutions to every day challenges. The base software used is WordPress/ClassicPress, Woocommerce and other plugins explained simply.</p>
   </div>
 </section>
 
