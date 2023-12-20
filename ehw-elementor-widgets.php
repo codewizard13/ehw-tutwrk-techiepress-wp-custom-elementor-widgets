@@ -5,7 +5,7 @@
  * Plugin URI:
  * Author: Eric Hepperle
  * Author URI: EricHepperleDesigns.com
- * Description: Custom Elementor widget plugin to render videos and livestreams from various sources and formats (Rumble, Facebook, YouTube, Vimeo, etc.)
+ * Description: Custom Elementor widget library
  * Version: 0.1.0
  * License: 
  * License URL:

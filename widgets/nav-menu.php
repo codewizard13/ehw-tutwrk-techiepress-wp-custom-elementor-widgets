@@ -5,7 +5,11 @@ namespace EHW\ElementorWidgets\Widgets;
 use Elementor\Widget_Base;
 
 /**
- * Have the widget code for the Custom Elementor Nav Menu
+ * Widget Name: Nav Menu
+ * Author: Eric Hepperle
+ * Description: Custom Elementor widget plugin to render videos and livestreams from various sources and formats (Rumble, Facebook, YouTube, Vimeo, etc.)
+ * Version: 0.1.0
+ * Text Domain: ehw-elementor-widgets 
  */
 
  class Nav_Menu extends Widget_Base {
