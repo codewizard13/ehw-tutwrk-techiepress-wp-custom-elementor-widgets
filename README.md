@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="messages.css">
+<link rel="stylesheet" href="./css/style.css">
 
 | **Tutorial Name**    | **Build Custom Elementor Widgets from scratch [Playlist]** |
 | -------------------- | ---------------------------------------------------------- |
