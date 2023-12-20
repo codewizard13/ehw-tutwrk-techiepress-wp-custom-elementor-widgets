@@ -39,7 +39,14 @@ use Elementor\Widget_Base;
     return ['ehw', 'basic', 'favorites'];
   }
 
-  public function _register_control() {
+  public function _register_controls() {
+
+    $this->start_controls_section(
+      'section_content',
+      [
+        'label' => 'Settings',
+      ]
+    );
 
   }
 
@@ -74,4 +81,3 @@ use Elementor\Widget_Base;
   }
 
  }
- 
