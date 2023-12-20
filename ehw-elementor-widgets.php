@@ -32,6 +32,7 @@ final class EHWElementorWidgets {
   public function __construct() {
     add_action( 'init', [ $this, 'i18n'] );
     add_action( 'plugin_loaded', [ $this, 'init_plugin'] );
+    add_action( 'elementor/elements/categories_registered', [ $this, 'create_new_category'] );
     add_action( 'elementor/widgets/widgets_registered', [ $this, 'init_widgets'] );
   }
 
@@ -70,7 +71,7 @@ final class EHWElementorWidgets {
 
 
   public function create_new_category() {
-    
+
   }
 
 
