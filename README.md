@@ -52,21 +52,17 @@
 
 ## Purpose
 
-**<u>Tutorial Work:</u>** Learn how to build a WordPress plugin from scratch with best practices and security measures.
+**<u>Tutorial Work:</u>** Learn how to build a custom Elementor widget plugins for WordPress.
     
 ## Requires
 
 * WordPress installed
 * Login to WordPress dashboard
+* IDE like VSCode
 
 ### Description:
 
-<div>
-
-A multi-part tutorial playlist teaching how to create a WordPress plugin from scratch.
-
-</div>
-
+A multi-part tutorial playlist teaching how to create a Elementor widget plugin from scratch.
 
 #### TIP: the settings.json in .vscode/ folder is key to getting the compile to work.
 
