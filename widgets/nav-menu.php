@@ -48,6 +48,15 @@ use Elementor\Widget_Base;
       ]
     );
 
+    $this->add_control(
+      'label_heading',
+      [
+        'label' => 'Label Heading',
+        'type' => \Elementor\Controls_Manager::TEXT,
+        'default' => 'My Example Heading'
+      ]
+    );
+
   }
 
   // Front end
