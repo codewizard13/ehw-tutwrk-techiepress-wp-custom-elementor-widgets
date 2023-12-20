@@ -18,6 +18,7 @@ use Elementor\Widget_Base;
     parent::__construct( $data, $args );
 
     // wp_enqueue_script();
+    wp_enqueue_script( 'ehw-menu-js', plugin_dir_url( __FILE__ ) . '../assets/js/menu.js' );
     wp_enqueue_style( 'ehw-menu-css', plugin_dir_url( __FILE__ ) . '../assets/css/menu.css' );
   }
 
