@@ -14,7 +14,7 @@ use Elementor\Widget_Base;
 
  class Nav_Menu extends Widget_Base {
 
-  public function __construct( $data, $args ) {
+  public function __construct( $data=[] , $args=null ) {
 
   }
 
