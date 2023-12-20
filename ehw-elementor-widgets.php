@@ -68,6 +68,14 @@ final class EHWElementorWidgets {
     return self::$_instance;
   }
 
+
+  public function create_new_category() {
+    
+  }
+
+
+
+
 }
 
 EHWElementorWidgets::get_instance();
