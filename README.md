@@ -1,18 +1,21 @@
-| **Tutorial Name**    | **Create a WordPress Plugin from Scratch [Playlist]** |
-| -------------------- | ----------------------------------------------------- |
-| File Name            | README.md                                             |
-| Date Created         | 02/17/23                                              |
-| Date Modified        | --                                                    |
-| Platform             | YouTube                                               |
-| Channel              | Alessandro Castellani                                 |
-| Version              | 0.0.1                                                 |
-| Programmer / Student | **Eric Hepperle**                                     |
+| **Tutorial Name**    | **Build Custom Elementor Widgets from scratch [Playlist]** |
+| -------------------- | ---------------------------------------------------------- |
+| File Name            | README.md                                                  |
+| Date Created         | 12/20/23                                                   |
+| Date Modified        | --                                                         |
+| Platform             | YouTube                                                    |
+| Channel              | TechiePress                                      |
+| Version              | 0.0.1                                                      |
+| Programmer / Student | **Eric Hepperle**                                          |
 
-* **Tutorial URL:** https://www.youtube.com/watch?v=Z7QfH-s-15s
+* **Tutorial URL:** https://www.youtube.com/watch?v=4Ob-TFTnmP4&list=PLNqG1qGUllk2pukgHP385ll0ENmRr9E_M&index=1
 
 ### TECHNOLOGIES
 
 <img align="left" alt="WordPress" title="WordPress" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" style="padding-right:10px;" />
+
+<img align="left" alt="Elementor" title="Elementor" width="26px" src="./img/Elementor-Logo-Symbol-Red.svg" style="padding-right:10px;" />
+
 
 <img align="left" alt="Git" title="Git" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="padding-right:10px;" />
 
@@ -21,7 +24,7 @@
 
 <br><br>
 
-![Tutorial Video Screenshot](screens/screen-alecad-wp-plugin-dev-01.jpg)
+![Tutorial Video Screenshot]("/../img/thumb-yt-techiepress-build-custom-elementor-widgets-01.jpg)
 
 
 ## TAGS
