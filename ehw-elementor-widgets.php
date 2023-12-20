@@ -70,7 +70,7 @@ final class EHWElementorWidgets {
   }
 
 
-  public function create_new_category() {
+  public function create_new_category( $elements_manager ) {
 
   }
 
