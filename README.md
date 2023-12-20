@@ -26,8 +26,27 @@
 
 <br><br>
 
+### Instructor Info
+
+<section class="author-profile">
+  <div class="author-img">
+    <img
+      src="https://yt3.ggpht.com/ytc/AL5GRJXFW7_tIIEEXuQuygVPmuVyV_QnYY4N9Sop3YwLXSQ=s88-c-k-c0x00ffffff-no-rj"
+      alt="Instructor pic"
+    />
+  </div>
+  <div class="author-info">
+    <h3><a href="https://www.youtube.com/@alecaddd" target="_blank">Alessandro Castellani</a></h3>
+    <h4>Development, Design, Tech news, and other Nerdy stuff.</h4>
+    <p>Tutorials and guides for Developers and Designers that want to learn HTML, CSS, JAVASCRIPT, PHP, WORDPRESS, GIT, LARAVEL, SQL, AWS, VUEJS, and how to bake a potato.</p>
+  </div>
+</section>
+
+<br>
+
 ![Tutorial Video Screenshot]("/../img/thumb-yt-techiepress-build-custom-elementor-widgets-01.jpg)
 
+<br>
 
 ## TAGS
 
@@ -78,20 +97,3 @@ A multi-part tutorial playlist teaching how to create a WordPress plugin from sc
 }
 ```
 
-### Instructor Channel
-
-
-
-<section class="author-profile">
-  <div class="author-img">
-    <img
-      src="https://yt3.ggpht.com/ytc/AL5GRJXFW7_tIIEEXuQuygVPmuVyV_QnYY4N9Sop3YwLXSQ=s88-c-k-c0x00ffffff-no-rj"
-      alt="Instructor pic"
-    />
-  </div>
-  <div class="author-info">
-    <h3><a href="https://www.youtube.com/@alecaddd" target="_blank">Alessandro Castellani</a></h3>
-    <h4>Development, Design, Tech news, and other Nerdy stuff.</h4>
-    <p>Tutorials and guides for Developers and Designers that want to learn HTML, CSS, JAVASCRIPT, PHP, WORDPRESS, GIT, LARAVEL, SQL, AWS, VUEJS, and how to bake a potato.</p>
-  </div>
-</section>
