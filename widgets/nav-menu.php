@@ -66,6 +66,16 @@ use Elementor\Widget_Base;
       ]
     );
 
+    $this->add_control(
+      'content',
+      [
+        'label' => 'Content',
+        'type' => \Elementor\Controls_Manager::WYSIWYG,
+        'default' => 'Some example content. Start EDITING Here.'
+      ]
+    );
+
+
     $this->end_controls_section();
 
 
