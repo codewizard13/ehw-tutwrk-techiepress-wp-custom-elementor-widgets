@@ -17,7 +17,8 @@ use Elementor\Widget_Base;
   public function __construct( $data=[] , $args=null ) {
     parent::__construct( $data, $args );
 
-    
+    // wp_enqueue_script();
+    wp_enqueue_style( 'ehw-menu-css', plugin_dir_url( __FILE__ ) . '../assets/css/menu.css' );
   }
 
   public function get_name() {
