@@ -117,13 +117,6 @@ use Elementor\Widget_Base;
 
     <?php
 
-    echo wp_nav_menu(
-      [
-        'container' => '',
-        'menu_class' => 'ehw-menu',
-      ]
-    );
-
   }
 
 
@@ -137,13 +130,6 @@ use Elementor\Widget_Base;
   <h3>{{{ settings.label_heading }}}</h3>
 
   <?php
-
-    echo wp_nav_menu(
-      [
-        'container' => '',
-        'menu_class' => 'ehw-menu',
-      ]
-    );
 
   }
 
