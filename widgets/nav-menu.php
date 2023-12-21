@@ -134,18 +134,8 @@ use Elementor\Widget_Base;
   
   ?>
   
-  <#
-  
-  view.addInlineEditingAttribtutes( 'label_heading', 'basic');
-  view.addRenderAttribute(
-    'label_heading',
-    {
-      'class': [ 'advertisement__label-heading'],
-    }
-  );
-  
-  #>
-  
+  <h3>{{{ settings.label_heading }}}</h3>
+
   <?php
 
     echo wp_nav_menu(
