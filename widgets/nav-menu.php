@@ -87,6 +87,36 @@ use Elementor\Widget_Base;
 
   // Front end
   protected function render() {
+
+    $settings = $this->get_settings_for_display();
+    $this->add_inline_editing_attributes('label_heading', 'basic');
+    $this->add_render_attribute(
+      'label_heading',
+      [
+        'class' => ['advertisement__label-heading'],
+      ]
+    );
+
+    ?>
+
+    <div class="advertisement">
+      <div>
+        <?php echo $settings['label_heading']; ?>
+      </div>
+
+      <div class="advertisement__content">
+        <div class="advertisement__content__heading">
+          <?php echo $settings['content_heading']; ?>
+        </div>
+        <div class="advertisement__content__copy">
+          <?php echo $settings['content']; ?>
+        </div>
+      </div>
+    </div>
+
+
+    <?php
+
     echo wp_nav_menu(
       [
         'container' => '',
