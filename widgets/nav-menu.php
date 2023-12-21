@@ -100,7 +100,7 @@ use Elementor\Widget_Base;
     ?>
 
     <div class="advertisement">
-      <div>
+      <div <?php echo $this->get_render_attribute_string('label_heading') ?> >
         <?php echo $settings['label_heading']; ?>
       </div>
 
