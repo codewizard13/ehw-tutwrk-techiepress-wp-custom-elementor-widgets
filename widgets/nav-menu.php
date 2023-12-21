@@ -119,11 +119,8 @@ use Elementor\Widget_Base;
 
   }
 
-
-
-
   // Back end
-  protected function _content_template() {
+  protected function content_template() {
   
   ?>
   
