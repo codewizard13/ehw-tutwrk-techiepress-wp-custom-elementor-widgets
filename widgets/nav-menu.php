@@ -126,8 +126,28 @@ use Elementor\Widget_Base;
 
   }
 
+
+
+
   // Back end
   protected function _content_template() {
+  
+  ?>
+  
+  <#
+  
+  view.addInlineEditingAttribtutes( 'label_heading', 'basic');
+  view.addRenderAttribute(
+    'label_heading',
+    {
+      'class': [ 'advertisement__label-heading'],
+    }
+  );
+  
+  #>
+  
+  <?php
+
     echo wp_nav_menu(
       [
         'container' => '',
